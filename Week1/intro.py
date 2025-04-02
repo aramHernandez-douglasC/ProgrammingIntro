@@ -1,3 +1,5 @@
+import os
+
 varChar = 'c' # int = 3, byte = 3 en binario
 varString = "hola"  # String character
 varNumber = 12 # number
@@ -17,6 +19,14 @@ varBoolean = False
 # Base10: 1234567890 10
 # base16: 0123456789ABCDFG
 # BASE2 o BINARIO: 01
+
+# Algebraic operators
+# +     = sum
+# -     = substraction
+# *     = multiplication
+# /     = regular division
+# //    = integer division
+
 # varString
 
 TAX = 0.18
@@ -45,14 +55,39 @@ TAX = 0.18
 # print(holaLuis())
 
 # Variables locales
-def sumOfTwoNumbers(num1, num2):
-    local = 10
-    print(local)
-    return num1 + num2
+# def sumOfTwoNumbers(num1, num2):
+#     local = 10
+#     print(local)
+#     return num1 + num2
 
-print(sumOfTwoNumbers(1 , 1))
-print(local) # No existe este valor en el context global
+# print(sumOfTwoNumbers(1 , 1))
+# print(local) # No existe este valor en el context global
 
 # Variables globales
+# globalVar = 10
+
+def multiplybyTen(num1):
+    return num1 * globalVar
+
+# def divideByTen(num1):
+#     return num1 // globalVar 
+
+# print(multiplybyTen(10)) # 100
+# print(divideByTen(100)) # 10
 
 # variables de entorno
+
+# def createDictionary():
+#     mapa = {
+#         'LUIS' : 'Hola me llamo luis', 
+#         'SILVANA' : 'Hola me llamo silvana'
+#         }
+#     return mapa
+
+# dictionary = createDictionary()
+
+def printPATHVar():
+    value = os.environ.get('ARAM')
+    print(value)
+
+printPATHVar()
