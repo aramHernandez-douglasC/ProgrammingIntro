@@ -1,5 +1,6 @@
 import os
 
+# ------------- V A R I A B L E S    &    T Y P E S --------------------
 varChar = 'c' # int = 3, byte = 3 en binario
 varString = "hola"  # String character
 varNumber = 12 # number
@@ -27,8 +28,6 @@ varBoolean = False
 # /     = regular division
 # //    = integer division
 
-# varString
-
 TAX = 0.18
 
 # def tax(precio):
@@ -43,11 +42,12 @@ TAX = 0.18
 
 # print(int(varString) + 4)
 
-# FUNCTIONS
+# ---------------------- F U N C T I O N S ---------------------------------
 #  def keyword as it name says, defines the start of a function
 # CONTANT_LALALA = 9
 # hola_luis() snake case
 # holaLuis()  camel case
+
 # def holaLuis():
 #     x = "hola"
 #     return x
@@ -66,16 +66,14 @@ TAX = 0.18
 # Variables globales
 # globalVar = 10
 
-def multiplybyTen(num1):
-    return num1 * globalVar
+# def multiplybyTen(num1):
+#     return num1 * globalVar
 
 # def divideByTen(num1):
 #     return num1 // globalVar 
 
 # print(multiplybyTen(10)) # 100
 # print(divideByTen(100)) # 10
-
-# variables de entorno
 
 # def createDictionary():
 #     mapa = {
@@ -86,8 +84,8 @@ def multiplybyTen(num1):
 
 # dictionary = createDictionary()
 
-def printPATHVar():
-    value = os.environ.get('ARAM')
-    print(value)
+# def printPATHVar():
+#     value = os.environ.get('ARAM')
+#     print(value)
 
-printPATHVar()
+# printPATHVar()

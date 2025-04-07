@@ -1,6 +1,7 @@
-DAY 1
-
+**DAY 1**
+- 
 INTRO TO PROGRAMMING AND PYTHON FUNDAMENTALS
+
 Objective: Understand what is python and the fundamentals of programming
 
 Block 1: 
@@ -15,11 +16,12 @@ Block 1:
 - What is AI?
     - AI involves building systems that can mimic human cognitive functions like learning, problem-solving, and decision-making.
 
-BINARY OPERATIONS
+**BINARY OPERATIONS**
+- 
 
 Programming is closely linked to binary and bitwise operations, as computers process information in binary form (using 1s and 0s). Here’s an overview of key concepts:
 
-Binary System:
+**Binary System:**
 
 - The binary system is a base-2 numeral system that uses only 0 and 1 to represent data.
 - Every piece of data in a computer is ultimately represented in binary (e.g., numbers, text, images, etc.).
@@ -28,7 +30,7 @@ Example:
 Decimal 5 is 101 in binary.
 Decimal 10 is 1010 in binary.
 
-Bitwise Operators: 
+**Bitwise Operators:** 
 
 Bitwise operators perform operations on individual bits of binary numbers.
 - AND (&): Compares two bits, returning 1 if both bits are 1; otherwise 0.
@@ -40,9 +42,54 @@ Bitwise operators perform operations on individual bits of binary numbers.
 - NOT (~): Flips the bits. It inverts 1 to 0 and 0 to 1.
     - ~5 → ~0101 → 1010 (which is -6 in decimal due to two's complement representation).
 
-// Add tablas de verdad
+**Truth tables**
 
+✅ **1. AND (and / &&)**
 
+````
+A	B	A and B
+0	0	0
+0	1	0
+1	0	0
+1	1	1
+````
+🔹 Only true when both A and B are true.
+
+✅ **2. OR (or / ||)**
+
+````
+A	B	A or B
+0	0	0
+0	1	1
+1	0	1
+1	1	1
+````
+
+🔹 True when at least one is true.
+
+✅ **3. NOT (not / !)**
+
+````
+A	not A
+0	1
+1	0
+````
+
+🔹 Inverts the value.
+
+✅ **4. XOR (Exclusive OR)**
+
+````
+A	B	A XOR B
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+````
+
+🔹 True only if one is true, but not both.
+
+----
 
 Shift Operators (<<, >>): These shift the bits left or right.
 
