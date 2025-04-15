@@ -14,6 +14,17 @@ programming
   - What is and how recursion works
   - Sorting algorithms and DS
 
+Week 1–2: Data Structures Fundamentals
+🎯 Goal:
+Understand how data can be efficiently organized, stored, and accessed, and how to choose the right structure based on time and space complexity needs.
+
+🔹 1. Arrays & Lists
+Concept: Fixed-size (arrays) vs. dynamic (lists) sequences of elements.
+
+Operations: Access (O(1)), insert/delete (O(n)), traversal.
+
+Python Tools: list, slicing, comprehensions.
+
 **Day 2:**
 
 **OOP and FOP**
