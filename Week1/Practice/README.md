@@ -16,10 +16,9 @@ depending on your specific setup:
 
 ``python {YOUR_PYTHON_FILENAME}.py``
 
-In case your machine has any trouble showing running said command, check that you
+In case your machine has any trouble running said command, check that you
 are running the command on the correct path on your terminal. To change paths in 
 windows, linux and mac use:
-
 ``cd {FOLFER_PATH_TO_MOVE_TOWARDS}``
 
 and to go backwards

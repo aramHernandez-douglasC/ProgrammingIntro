@@ -69,8 +69,9 @@ TAX = 0.18
 # def multiplybyTen(num1):
 #     return num1 * globalVar
 
-# def divideByTen(num1):
-#     return num1 // globalVar 
+# def divideByTen(num1): # integer division
+#     return num1 // 5
+
 
 # print(multiplybyTen(10)) # 100
 # print(divideByTen(100)) # 10
