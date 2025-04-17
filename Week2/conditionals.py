@@ -1,7 +1,6 @@
 # Conditionals:
 # If something is true then do something
 
-# Any number that is divisible by 2
 # Conditional operators
 # >
 # <
