@@ -6,29 +6,84 @@
 #                 return [OuterPointer,InnerPointer] 
 #     return []
 
-import random
+# import random
+#
+# def guess_a_number():
+#     computer_guess = random.randint(1,5)
+#
+#     print("Guess a number game!")
+#     user_input = int(input("Pick a number from 0-5 and let's see if you know what I am thinking: "))
+#
+#     while user_input != computer_guess:
+#         if user_input > computer_guess:
+#             print ("Too High!")
+#         elif user_input < computer_guess:
+#             print ("Too Low!")
+#         user_input = int(input("Try again:"))
+#     print("Correct!")
+#
+#
+#
+# guess_a_number()
+#
 
-def guess_a_number():
-    computer_guess = random.randint(1,5)
 
-    print("Guess a number game!")
-    user_input = int(input("Pick a number from 0-5 and let's see if you know what I am thinking: "))  
 
-    while user_input != computer_guess:
-        if user_input > computer_guess:
-            print ("Too High!")
-        elif user_input < computer_guess:
-            print ("Too Low!")
-        user_input = int(input("Try again:"))
-    print("Correct!")
+# import random
+#
+# choice = ["rock","paper","scissors"]
+#
+# winners = {
+#     "rock":"paper", "paper":"scissors", "scissors":"rock"
+#     }
+#
+# def make_a_choice():
+#     computer_guess = random.choice(choice)
+#
+#     print("Make your choice!")
+#     user_input = str(input("Pick between rock, paper or scissors:"))
+#     if user_input not in choice:
+#         print("Please ONLY pick between rock, paper or scissors")
+#         make_a_choice()
+#
+#
+#     if user_input == computer_guess:
+#         print("It's a draw")
+#     elif winners.get(user_input)== computer_guess:
+#         print("Computer wins")
+#     elif winners.get(user_input) != computer_guess:
+#         print("Congratulations!You win.")
+#
+#     print(f"Computer choice:{computer_guess}, user choice:{user_input}")
+#
+# make_a_choice()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         
-          
-guess_a_number()
-
-
-        
-
+# Rock, paper, scissors (vs computer)
+#
+# Ask the user to choose "rock", "paper", or "scissors"
+# Randomly generate the computer's choice
+# Use find a way to determine the winner
+# Rules:
+# Rock beats Scissors
+# Paper beats Rock
+# Scissors beats Paper
+# **Tip: Use import random and random.choice() for the computer's pick.
 
 
 
