@@ -8,10 +8,10 @@
 # >=
 # <=
 
-# silvanaAge = 21
+# silvanaAge = 18
 # silvanaTshirt = "red"
 #
-# johnAge = 18
+# johnAge = 19
 # johnTshirt = "red"
 #
 # ferAge = 21
@@ -22,15 +22,16 @@
 #
 #
 # def is_eligible(personAge, colorTshirt):
-#     if ((personAge >= 19) ^ (colorTshirt == "red")):
+#     if ((personAge >= 19) and (colorTshirt == "red")):
 #         print("Great you can enter")
+#     elif ((personAge == 18)) and (colorTshirt == "red"):
+#         print("Gtfo Silvana")
 #     else:
 #         print("Sorry you cannot pass iugh")
 #
-# # is_underage(silvanaAge)
-# is_eligible(silvanaAge, silvanaTshirt)
+# is_eligible(ferAge, ferTshirt)
 
-#  % = modulo
+# % = modulo
 # def is_even_or_odd(num1):
 #     if (num1 % 2 == 0):
 #         print(str(num1) + " is even")
@@ -38,8 +39,8 @@
 #         print(str(num1) + " is odd")
 #
 # is_even_or_odd()
-
-
+#
+#
 # def can_vote(age):
 #     # if person age is >= 18
 #     if (age >= 18):
@@ -57,27 +58,28 @@
 #         print(str(num2) + " is equal to " + str(num1))
 #
 # compare_numbers(5, 10)
-
+#
 #
 #
 # Return "Fizz" if divisible by 3,
 # "Buzz" if divisible by 5,
 # "FizzBuzz" if divisible by both,
 # else the number as a string.
-def fizzbuzz(number):
-    if number % 3 == 0 and number % 5 == 0:
-        print("FizzBuzz")
-    elif number % 3 == 0:
-        print("Fizz")
-    elif number % 5 == 0:
-        print("Buzz")
-    else:
-        print(number)
-
-fizzbuzz(3) # fizz
-fizzbuzz(10)  # buzz
-fizzbuzz(15) # FizzBuzz
-fizzbuzz(7) # 7
+# def fizzbuzz(number):
+#     if number % 3 == 0 and number % 5 == 0:
+#         print("FizzBuzz")
+#     elif number % 3 == 0:
+#         print("Fizz")
+#     elif number % 5 == 0:
+#         print("Buzz")
+#     else:
+#         print(number)
+#
+#
+# fizzbuzz(3) # fizz
+# fizzbuzz(10)  # buzz
+# fizzbuzz(15) # FizzBuzz
+# fizzbuzz(7) # 7
 
 # Description:
 # Return the price after discount:
